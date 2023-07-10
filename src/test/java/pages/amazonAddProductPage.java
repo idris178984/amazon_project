@@ -12,7 +12,7 @@ public class amazonAddProductPage {
     }
 
     @FindBy(xpath = "(//img[@class='s-image']) [2]")
-    public WebElement ikinciÜrünseç;
+    public WebElement ikinciÜrünseç ;
 
     @FindBy(css = "input#add-to-wishlist-button")
     public WebElement ürünListeyeEkleIconu;
