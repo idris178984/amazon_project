@@ -18,7 +18,7 @@ public abstract class amazonBasePage {
     public WebElement email;
 
     @FindBy(xpath = "//input[@type='password']")
-    public WebElement password;
+    public WebElement password ;
 
     @FindBy(id = "sp-cc-accept")
     public WebElement cerezlerikabulEt;
